@@ -1,0 +1,14 @@
+PODS:
+  - ScrollingBars (0.1.0)
+
+DEPENDENCIES:
+  - ScrollingBars (from `~/Dropbox/applidev/proj/ScrollingBars`)
+
+EXTERNAL SOURCES:
+  ScrollingBars:
+    :path: ~/Dropbox/applidev/proj/ScrollingBars
+
+SPEC CHECKSUMS:
+  ScrollingBars: a2316740e44d43fb4a109bfcca552cd8baa11d5d
+
+COCOAPODS: 0.36.0.beta.1
