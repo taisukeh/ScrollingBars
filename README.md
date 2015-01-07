@@ -130,6 +130,34 @@ If you can't overwrite UIScrollView delegate, pass proxy UIScrollView delegate m
     }
 ```
 
+
+If your view will rotate, you should probabily change the top bar height.
+
+```
+    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animateAlongsideTransition({ (context : UIViewControllerTransitionCoordinatorContext!) -> Void in
+            self.updateTopBarHeight()
+            }, completion: nil)
+    }
+
+    func updateTopBarHeight() {
+        let orientation = UIApplication.sharedApplication().statusBarOrientation
+        var height: CGFloat
+        if orientation.isPortrait || UIDevice.currentDevice().userInterfaceIdiom == .Pad {
+            height = 64
+        } else {
+            height = 44
+        }
+
+        let isHeightChanged = self.topBarHeightConstraint.constant != height
+        if isHeightChanged {
+            self.topBarHeightConstraint.constant = height
+            self.topBar.layoutIfNeeded()
+            self.scrollingBars.refresh(animated: false)
+        }
+    }
+```
+
 # Requirements
 
 Requires iOS 7.0, Swift.

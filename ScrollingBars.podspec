@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   s.version      = "0.1.0"
   s.summary      = "Scrollable top and bottom bars that follows the scrolling of a UIScrollView. Similiar to Safari for iOS8"
 
-  s.description  = <<-DESC
-                   * Written in Swift
-                   * Work with Auto Layout
-                   DESC
+  # s.description  = <<-DESC
+  #                  * Written in Swift
+  #                  * Work with Auto Layout
+  #                  DESC
 
   s.homepage     = "https://github.com/taisukeh/ScrollingBars"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/taisukeh/ScrollingBars", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/taisukeh/ScrollingBars.git", :tag => "0.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

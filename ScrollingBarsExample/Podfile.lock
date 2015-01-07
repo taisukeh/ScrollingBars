@@ -2,18 +2,9 @@ PODS:
   - ScrollingBars (0.1.0)
 
 DEPENDENCIES:
-  - ScrollingBars (from `https://github.com/taisukeh/ScrollingBars.git`)
-
-EXTERNAL SOURCES:
-  ScrollingBars:
-    :git: https://github.com/taisukeh/ScrollingBars.git
-
-CHECKOUT OPTIONS:
-  ScrollingBars:
-    :commit: 8169e38c98ae99c51448f4951f31b404af448cbd
-    :git: https://github.com/taisukeh/ScrollingBars.git
+  - ScrollingBars
 
 SPEC CHECKSUMS:
-  ScrollingBars: a2316740e44d43fb4a109bfcca552cd8baa11d5d
+  ScrollingBars: bd50b1e8454bf1f2ef918716c0ca45071625dc16
 
 COCOAPODS: 0.36.0.beta.1
