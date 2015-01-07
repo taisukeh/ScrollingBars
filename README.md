@@ -4,6 +4,10 @@
 
 `ScrollingBars` make top and bottom bars follow scrollilng of a UIScrollVieww or similar view (e.g. UITableView or UIWebView). It works like the Safari app for iOS8.
 
+`ScrollingBars` **can't use with UINavigationController's navigation bar**
+because the navigation bar provides no way to change it's height or
+position. It is recommended to create top bar as a generic UIView.
+
 ## So what can I do with it?
 
 ![](ScreenShots/ScreenShot1.gif)
