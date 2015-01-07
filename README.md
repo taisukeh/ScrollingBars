@@ -1,10 +1,7 @@
-ScrollingBars
-=============
+# Introduction
 ![Version](https://img.shields.io/cocoapods/v/ScrollingBars.svg)
 ![License](https://img.shields.io/cocoapods/l/ScrollingBars.svg)
 ![Platform](https://img.shields.io/cocoapods/p/ScrollingBars.svg)
-
-# Introduction
 
 ## What is it?
 
