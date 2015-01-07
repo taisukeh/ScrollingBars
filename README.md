@@ -1,7 +1,7 @@
 # Introduction
-![Version](https://img.shields.io/cocoapods/v/ScrollingBars.svg)
-![License](https://img.shields.io/cocoapods/l/ScrollingBars.svg)
-![Platform](https://img.shields.io/cocoapods/p/ScrollingBars.svg)
+[![Version](https://img.shields.io/cocoapods/v/ScrollingBars.svg?style=flat)](http://cocoadocs.org/docsets/ScrollingBars)
+[![License](https://img.shields.io/cocoapods/l/ScrollingBars.svg?style=flat)](http://cocoadocs.org/docsets/ScrollingBars)
+[![Platform](https://img.shields.io/cocoapods/p/ScrollingBars.svg?style=flat)](http://cocoadocs.org/docsets/ScrollingBars)
 
 ## What is it?
 
