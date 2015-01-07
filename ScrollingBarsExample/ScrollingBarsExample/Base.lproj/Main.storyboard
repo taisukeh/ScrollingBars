@@ -53,7 +53,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Nla-Dg-cKO" secondAttribute="trailing" constant="10" id="83V-3Z-Uxz"/>
                                     <constraint firstItem="Nla-Dg-cKO" firstAttribute="centerY" secondItem="uSh-P4-sUp" secondAttribute="centerY" id="Iat-Es-Lj3"/>
                                     <constraint firstItem="dkR-kR-8z0" firstAttribute="leading" secondItem="Mee-mZ-Et8" secondAttribute="leading" constant="10" id="Ijs-uw-0Dl"/>
-                                    <constraint firstAttribute="height" constant="64" id="J6L-2b-bss"/>
+                                    <constraint firstAttribute="height" constant="64" id="J6L-2b-bss" userLabel="TopBar Height"/>
                                     <constraint firstAttribute="bottom" secondItem="dkR-kR-8z0" secondAttribute="bottom" constant="10" id="rRh-nT-SPk"/>
                                     <constraint firstAttribute="centerX" secondItem="uSh-P4-sUp" secondAttribute="centerX" id="xrB-em-S2M"/>
                                 </constraints>
