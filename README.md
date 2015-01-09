@@ -2,6 +2,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ScrollingBars.svg?style=flat)](http://cocoadocs.org/docsets/ScrollingBars)
 [![License](https://img.shields.io/cocoapods/l/ScrollingBars.svg?style=flat)](http://cocoadocs.org/docsets/ScrollingBars)
 [![Platform](https://img.shields.io/cocoapods/p/ScrollingBars.svg?style=flat)](http://cocoadocs.org/docsets/ScrollingBars)
+[![Analytics](https://ga-beacon.appspot.com/UA-48329340-2/your-repo/page-name)](https://github.com/igrigorik/ga-beacon)
 
 ## What is it?
 
