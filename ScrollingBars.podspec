@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ScrollingBars"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Scrollable top and bottom bars that follows the scrolling of a UIScrollView. Similiar to Safari for iOS8"
 
   # s.description  = <<-DESC

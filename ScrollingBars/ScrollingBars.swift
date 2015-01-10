@@ -139,10 +139,10 @@ public class ScrollingBars: NSObject, UIScrollViewDelegate {
         } else {
             let isUnderTopBar = scrollView.contentOffset.y < -self.delegate.topBarMinHeight && scrollView.contentOffset.y >= -self.delegate.topBarHeight
             let isOverUnderTopBar = scrollView.contentOffset.y < -self.delegate.topBarHeight
-            if (!self.isTopBarHidden() || isUnderTopBar) && !isOverUnderTopBar && !self.isScrollFromBottomLine {
+            if (!self.isTopBarHidden() || isUnderTopBar) && !isOverUnderTopBar {
                 self.delegate.topBarPosition = min(self.topBarMaxPosition(), max(0, scrollDistanceFromPrev + self.delegate.topBarPosition))
             }
-            if (!self.isBottomBarHidden() || isUnderTopBar) && !isOverUnderTopBar && !self.isScrollFromBottomLine {
+            if (!self.isBottomBarHidden() || isUnderTopBar) && !isOverUnderTopBar {
                 self.delegate.bottomBarPosition = min(self.bottomBarMaxPosition(), max(0, scrollDistanceFromPrev + self.delegate.bottomBarPosition))
                 let prevTop = self.scrollView.contentInset.top
                 self.updateContentInset()

@@ -113,6 +113,9 @@ Call `ScrollingBars`'s `follow` method in viewDidLoad (or other appropriate plac
 ```
     scrollingBars.follow(self.scrollView, delegate: self)
     self.scrollView.delegate = scrollingBars
+
+    // In addition, you may need to set this.
+    self.automaticallyAdjustsScrollViewInsets = false
 ```
 
 If you can't overwrite UIScrollView delegate, pass proxy UIScrollView delegate methods manually like follows.

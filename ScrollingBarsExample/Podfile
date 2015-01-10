@@ -1,4 +1,4 @@
 platform :ios, '8.0'
+source 'https://git.corp.yahoo.co.jp/techstgy/CocoaPodsSpecs.git'
 
-pod 'ScrollingBars'
-
+pod 'ScrollingBars', :path => '..'
