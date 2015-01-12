@@ -1,0 +1,19 @@
+PODS:
+  - KIF (3.1.1):
+    - KIF/XCTest (= 3.1.1)
+  - KIF/XCTest (3.1.1)
+  - ScrollingBars (0.1.1)
+
+DEPENDENCIES:
+  - KIF (~> 3.0)
+  - ScrollingBars (from `..`)
+
+EXTERNAL SOURCES:
+  ScrollingBars:
+    :path: ..
+
+SPEC CHECKSUMS:
+  KIF: 0a3c7440a32612498a114012e822b9d39b6432f1
+  ScrollingBars: ae558d6c8bf73984f61514dddb3fe76bd9fe563b
+
+COCOAPODS: 0.36.0.beta.1

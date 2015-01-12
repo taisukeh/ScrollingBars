@@ -1,6 +1,5 @@
 //
 //  ScrollingBars.swift
-//  HoboFun
 //
 //  Created by Taisuke Hori on 2014/12/28.
 //  Copyright (c) 2015年 Hori Taisuke. All rights reserved.
@@ -43,7 +42,7 @@ public class ScrollingBars: NSObject, UIScrollViewDelegate {
             self.updateContentInset()
         }
         if (animate) {
-            // 何故か dispatch_async に入れないと inset の変化が滑らかに動かなかった
+            // workaround for smooth animation
             dispatch_async(dispatch_get_main_queue()) {
                 UIView.animateWithDuration(self.animationDuration, animations: changeFunc)
             }
@@ -59,7 +58,7 @@ public class ScrollingBars: NSObject, UIScrollViewDelegate {
             self.updateContentInset()
         }
         if (animate) {
-            // 何故か dispatch_async に入れないと inset の変化が滑らかに動かなかった
+            // workaround for smooth animation
             dispatch_async(dispatch_get_main_queue()) {
                 UIView.animateWithDuration(self.animationDuration, animations: changeFunc, completion:nil)
             }
