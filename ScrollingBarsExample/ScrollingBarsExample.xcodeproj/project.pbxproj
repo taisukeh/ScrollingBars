@@ -12,21 +12,11 @@
 		0994D8171A5BF69B0067D60B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0994D8151A5BF69B0067D60B /* Main.storyboard */; };
 		0994D8191A5BF69B0067D60B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0994D8181A5BF69B0067D60B /* Images.xcassets */; };
 		0994D81C1A5BF69B0067D60B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0994D81A1A5BF69B0067D60B /* LaunchScreen.xib */; };
-		0994D8281A5BF69B0067D60B /* ScrollingBarsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994D8271A5BF69B0067D60B /* ScrollingBarsExampleTests.swift */; };
 		47CF9C54D77A2C09D6841F09 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71348B6E278E0DB0E84EE601 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0994D8221A5BF69B0067D60B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0994D8041A5BF69B0067D60B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0994D80B1A5BF69B0067D60B;
-			remoteInfo = ScrollingBarsExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		095AB8A41A64140C00381F8B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		0994D80C1A5BF69B0067D60B /* ScrollingBarsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingBarsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0994D8101A5BF69B0067D60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0994D8111A5BF69B0067D60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,13 +24,16 @@
 		0994D8161A5BF69B0067D60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0994D8181A5BF69B0067D60B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0994D81B1A5BF69B0067D60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0994D8211A5BF69B0067D60B /* ScrollingBarsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingBarsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0994D8261A5BF69B0067D60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0994D8271A5BF69B0067D60B /* ScrollingBarsExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingBarsExampleTests.swift; sourceTree = "<group>"; };
 		5A0C18C6ABB635A877A85DEC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		71348B6E278E0DB0E84EE601 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9D75956368D4D9EDBBCEA4 /* Pods-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		94E506A9128049249B570F15 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A84AC8D12F50690616C656DE /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C4EA102652EB2747567CA7F7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CD461F081E50F102051E970E /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6B4B699251614C124E615 /* Pods-ScrollingBarsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingBarsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingBarsTest/Pods-ScrollingBarsTest.release.xcconfig"; sourceTree = "<group>"; };
+		EDBD9DA18B5051D37ACF1975 /* libPods-ScrollingBarsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollingBarsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01951386878CF9A6A0B1F43 /* Pods-ScrollingBarsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingBarsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingBarsTest/Pods-ScrollingBarsTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,21 +45,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0994D81E1A5BF69B0067D60B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0994D8031A5BF69B0067D60B = {
 			isa = PBXGroup;
 			children = (
+				095AB8A41A64140C00381F8B /* Podfile */,
 				0994D80E1A5BF69B0067D60B /* ScrollingBarsExample */,
-				0994D8241A5BF69B0067D60B /* ScrollingBarsExampleTests */,
 				0994D80D1A5BF69B0067D60B /* Products */,
 				6FF09B47FD092C83A37F7BEF /* Pods */,
 				A8E92F352D64F5BD307019BA /* Frameworks */,
@@ -77,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				0994D80C1A5BF69B0067D60B /* ScrollingBarsExample.app */,
-				0994D8211A5BF69B0067D60B /* ScrollingBarsExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,28 +88,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0994D8241A5BF69B0067D60B /* ScrollingBarsExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				0994D8271A5BF69B0067D60B /* ScrollingBarsExampleTests.swift */,
-				0994D8251A5BF69B0067D60B /* Supporting Files */,
-			);
-			path = ScrollingBarsExampleTests;
-			sourceTree = "<group>";
-		};
-		0994D8251A5BF69B0067D60B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0994D8261A5BF69B0067D60B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		6FF09B47FD092C83A37F7BEF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C4EA102652EB2747567CA7F7 /* Pods.debug.xcconfig */,
 				94E506A9128049249B570F15 /* Pods.release.xcconfig */,
+				8E9D75956368D4D9EDBBCEA4 /* Pods-Acceptance Tests.debug.xcconfig */,
+				A84AC8D12F50690616C656DE /* Pods-Acceptance Tests.release.xcconfig */,
+				F01951386878CF9A6A0B1F43 /* Pods-ScrollingBarsTest.debug.xcconfig */,
+				CDE6B4B699251614C124E615 /* Pods-ScrollingBarsTest.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -134,6 +106,8 @@
 			children = (
 				71348B6E278E0DB0E84EE601 /* Pods.framework */,
 				5A0C18C6ABB635A877A85DEC /* libPods.a */,
+				CD461F081E50F102051E970E /* libPods-Acceptance Tests.a */,
+				EDBD9DA18B5051D37ACF1975 /* libPods-ScrollingBarsTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,24 +135,6 @@
 			productReference = 0994D80C1A5BF69B0067D60B /* ScrollingBarsExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0994D8201A5BF69B0067D60B /* ScrollingBarsExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0994D82E1A5BF69B0067D60B /* Build configuration list for PBXNativeTarget "ScrollingBarsExampleTests" */;
-			buildPhases = (
-				0994D81D1A5BF69B0067D60B /* Sources */,
-				0994D81E1A5BF69B0067D60B /* Frameworks */,
-				0994D81F1A5BF69B0067D60B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0994D8231A5BF69B0067D60B /* PBXTargetDependency */,
-			);
-			name = ScrollingBarsExampleTests;
-			productName = ScrollingBarsExampleTests;
-			productReference = 0994D8211A5BF69B0067D60B /* ScrollingBarsExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,10 +147,6 @@
 					0994D80B1A5BF69B0067D60B = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					0994D8201A5BF69B0067D60B = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 0994D80B1A5BF69B0067D60B;
-					};
 				};
 			};
 			buildConfigurationList = 0994D8071A5BF69B0067D60B /* Build configuration list for PBXProject "ScrollingBarsExample" */;
@@ -204,6 +156,40 @@
 			knownRegions = (
 				en,
 				Base,
+				cs,
+				de,
+				es,
+				eu,
+				fi,
+				fr,
+				it,
+				ja,
+				ko,
+				nl,
+				no,
+				pl,
+				pt,
+				ru,
+				sk,
+				sv,
+				vi,
+				zh_CN,
+				ar,
+				arm,
+				ca,
+				da,
+				el,
+				he,
+				hu,
+				id,
+				ms,
+				nb,
+				"pt-BR",
+				ro,
+				th,
+				tr,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 0994D8031A5BF69B0067D60B;
 			productRefGroup = 0994D80D1A5BF69B0067D60B /* Products */;
@@ -211,7 +197,6 @@
 			projectRoot = "";
 			targets = (
 				0994D80B1A5BF69B0067D60B /* ScrollingBarsExample */,
-				0994D8201A5BF69B0067D60B /* ScrollingBarsExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,13 +209,6 @@
 				0994D8171A5BF69B0067D60B /* Main.storyboard in Resources */,
 				0994D81C1A5BF69B0067D60B /* LaunchScreen.xib in Resources */,
 				0994D8191A5BF69B0067D60B /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0994D81F1A5BF69B0067D60B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,23 +272,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0994D81D1A5BF69B0067D60B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0994D8281A5BF69B0067D60B /* ScrollingBarsExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0994D8231A5BF69B0067D60B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0994D80B1A5BF69B0067D60B /* ScrollingBarsExample */;
-			targetProxy = 0994D8221A5BF69B0067D60B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0994D8151A5BF69B0067D60B /* Main.storyboard */ = {
@@ -433,40 +395,6 @@
 			};
 			name = Release;
 		};
-		0994D82F1A5BF69B0067D60B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ScrollingBarsExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingBarsExample.app/ScrollingBarsExample";
-			};
-			name = Debug;
-		};
-		0994D8301A5BF69B0067D60B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ScrollingBarsExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingBarsExample.app/ScrollingBarsExample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -484,15 +412,6 @@
 			buildConfigurations = (
 				0994D82C1A5BF69B0067D60B /* Debug */,
 				0994D82D1A5BF69B0067D60B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0994D82E1A5BF69B0067D60B /* Build configuration list for PBXNativeTarget "ScrollingBarsExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0994D82F1A5BF69B0067D60B /* Debug */,
-				0994D8301A5BF69B0067D60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

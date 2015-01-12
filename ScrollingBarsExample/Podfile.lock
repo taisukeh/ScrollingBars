@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  ScrollingBars: 96e48da477d0479c2eb225e58480d4e2156a8f79
+  ScrollingBars: ae558d6c8bf73984f61514dddb3fe76bd9fe563b
 
 COCOAPODS: 0.36.0.beta.1
