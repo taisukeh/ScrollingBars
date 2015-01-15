@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 set -o pipefail
-set -x
 
 BASEDIR=$(dirname $0)
 cd "$BASEDIR"/../ScrollingBarsTest
