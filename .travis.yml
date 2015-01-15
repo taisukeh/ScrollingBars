@@ -3,5 +3,4 @@ language: objective-c
 env: export LANG=en_US.UTF-8
 
 script: 
-  - bin/test_setup.sh
-  - bin/test.sh
+  - make test-setup test
