@@ -2,6 +2,9 @@
 
 set -o pipefail
 
+BASEDIR=$(dirname $0)
+cd "$BASEDIR"/../ScrollingBarsTest
+
 xcodebuild test -workspace ScrollingBarsTest.xcworkspace \
       -scheme ScrollingBarsTest -sdk iphonesimulator \
-      BUILD_ACTIVE_ARCH=NO | xcpretty -t -c
+      BUILD_ACTIVE_ARCH=NO | xcpretty -s -c
