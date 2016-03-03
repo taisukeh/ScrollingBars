@@ -39,6 +39,7 @@ public class ScrollingBars: NSObject, UIScrollViewDelegate {
         let changeFunc: () -> Void = {
             self.delegate.topBarPosition = 0
             self.delegate.bottomBarPosition = 0
+            let a = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
             self.updateContentInset()
         }
         if (animate) {
