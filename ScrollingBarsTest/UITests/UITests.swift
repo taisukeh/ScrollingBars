@@ -18,7 +18,7 @@ class UITests: KIFTestCase {
         scrollY(2000)
         scrollX(2000)
         if topBarPosition() != CGFloat(0.0) {
-            XCTAssertEqual(topBarPosition(), CGFloat(0.0))
+            XCTAssertEqual(topBarPosition(), CGFloat(10.0))
             XCTAssertEqual(bottomBarPosition(), CGFloat(0.0))
         }
     }

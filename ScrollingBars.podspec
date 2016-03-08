@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ScrollingBars"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Scrollable top and bottom bars that follows the scrolling of a UIScrollView. Similiar to Safari for iOS8"
 
   # s.description  = <<-DESC
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/taisukeh/ScrollingBars.git", :tag => "0.1.1" }
+  s.source       = { :git => "https://github.com/taisukeh/ScrollingBars.git", :submodules => true, :tag => "0.1.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -99,7 +99,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "MySubmodule/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
