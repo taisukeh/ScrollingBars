@@ -177,3 +177,5 @@ Requires iOS 7.0, Swift.
 # Contributing
 
 Forks, patches and other feedback are welcome.
+
+test
