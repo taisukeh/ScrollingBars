@@ -4,6 +4,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/ScrollingBars.svg?style=flat)](http://cocoadocs.org/docsets/ScrollingBars)
 [![Build Status](https://travis-ci.org/taisukeh/ScrollingBars.svg?branch=master)](https://travis-ci.org/taisukeh/ScrollingBars)
 [![Analytics](https://ga-beacon.appspot.com/UA-48329340-2/taisukeh/ScrollingBars)](https://github.com/igrigorik/ga-beacon)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftaisukeh%2FScrollingBars.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftaisukeh%2FScrollingBars?ref=badge_shield)
 
 ## What is it?
 
@@ -177,3 +178,7 @@ Requires iOS 7.0, Swift.
 # Contributing
 
 Forks, patches and other feedback are welcome.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftaisukeh%2FScrollingBars.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftaisukeh%2FScrollingBars?ref=badge_large)
